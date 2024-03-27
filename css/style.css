@@ -1,0 +1,1404 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none !important;
+    text-decoration: none !important;
+
+    box-sizing: border-box;
+}
+
+.bg-color {
+    background-color: #cfa9ab;
+}
+
+nav {
+    background-color: #cfa9ab;
+
+}
+
+
+
+.navbar-brand img {
+    width: 15%;
+}
+
+.main-box .row {
+    background-color: #cfa9ab;
+}
+
+.faq-icon span {
+
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    background-color: rgb(0, 0, 0, 0.7);
+    color: #fff;
+
+}
+
+.dropdown-menu li a {
+
+    color: white;
+
+}
+
+.dropdown-menu li {
+
+    padding: 10px 4px;
+}
+
+.dropdown-menu li:hover {
+
+    border-bottom: 1px solid green;
+
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+    color: #fff;
+
+}
+
+.dropdown {
+    border-radius: 50px;
+    border: 3px solid blueviolet;
+    background-color: #fff;
+}
+
+.icon i {
+    font-size: 1.4rem;
+}
+
+.icon span {
+    font-size: 1.5rem;
+}
+
+
+
+.side a {
+    width: 13em;
+    display: block;
+    border-radius: 50px;
+    border: 1px solid blueviolet;
+    background-color: white;
+}
+
+.active {
+    background-color: blueviolet !important;
+    color: white !important;
+}
+
+.side .container-fluid {
+    background-color: rgb(207, 205, 205);
+    border: 1px solid black;
+    width: 90%;
+
+}
+
+.side {
+    height: 33.55rem;
+
+    overflow: auto;
+    border: 7px solid gray;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fff;
+
+}
+
+.side::-webkit-scrollbar {
+    width: 0.4rem;
+
+
+
+
+
+}
+
+.side::-webkit-scrollbar-track {
+    background-color: #aea9a9;
+
+}
+
+
+.side::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+
+
+
+}
+
+.side .container-fluid p {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    margin: 4px 0;
+}
+
+.side .container-fluid span {
+    min-width: 70%;
+}
+
+.chart-img {
+    /* width: 60rem;*/
+    height: 35vh; 
+}
+
+
+.chart-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.chart-img {
+    position: relative;
+}
+
+.chart-btn {
+    position: absolute;
+    top: 15%;
+    width: 30%;
+    height: 11%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart-btn a {
+    color: black;
+    background-color: white;
+    padding: 0px 12px;
+    border: 1px solid black;
+}
+
+
+
+
+.content {
+    background-color: #cfa9ab;
+}
+
+.track-box {
+    width: 19%;
+    height: 4.5rem;
+    margin-top: 40px;
+    margin-right: 3rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.track-box h5 {
+    font-size: 1rem;
+
+}
+
+.track-box p {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.track-box span {
+    font-size: 1rem;
+    color: rgb(19, 225, 19);
+    font-weight: 400;
+}
+
+.graph {
+    height: 10rem;
+    /* width: 20rem; */
+}
+
+.graph img {
+    height: 100%;
+    width: 100%;
+}
+
+.graph h4,
+.graph2 h4 {
+    font-size: 1rem;
+}
+
+.graph-table {
+    font-size: 0.8rem
+}
+
+.graph-table thead tr th {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(74, 71, 71);
+}
+
+.graph-table {
+    border-collapse: collapse;
+    max-height: 15rem;
+    /* background-color: aqua; */
+    /* max-width: 38rem; */
+    overflow: auto;
+}
+
+.table-box {
+    max-height: 30vh;
+    overflow: auto;
+    height: 30vh;
+}
+
+.graph-table thead tr,
+.graph-table thead span {
+
+    background-color: #f4f5f8;
+    color: black;
+
+    text-align: left;
+    font-size: 0.6rem;
+}
+
+.graph-table th,
+.graph-table td {
+    padding: 2px 2px;
+    border: 1px solid gray;
+    width: 10rem;
+
+}
+
+.graph-table tbody tr {
+    border-bottom: 1px solid rgb(210, 209, 209)
+}
+
+.graph-table tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.graph-table tbody tr:nth-of-type(odd) {
+    background-color: #f4f5f8;
+}
+
+.graph-table td:nth-child(1) {
+    color: rgb(11, 85, 155);
+    text-decoration: underline;
+}
+
+
+.table-box::-webkit-scrollbar,
+.scroll::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 0.4rem;
+
+
+
+
+
+}
+
+.table-box::-webkit-scrollbar-track,
+.scroll::-webkit-scrollbar-track {
+    background-color: #aea9a9;
+
+}
+
+
+.table-box::-webkit-scrollbar-thumb,
+.scroll::-webkit-scrollbar-thumb {
+    background: rgb(95, 92, 92);
+    border-radius: 10px;
+
+
+
+}
+
+
+/* --------------------login----------------------------- */
+.login-nav {
+    background-color: #c2caf6;
+}
+
+.login-contain {
+    background-color: #c2caf6;
+}
+
+
+.form-box {
+    background-color: #fff;
+    height: 28rem;
+   
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+   
+    margin-top: 75px;
+    margin-bottom: 28px;
+}
+
+.form-box h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-box .input-box {
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    padding: 8px 4px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+
+
+}
+
+.input-box input::placeholder {
+    color: gray;
+}
+
+
+.input-box i {}
+
+.form-box .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+
+}
+
+.remember label input {
+    margin-right: 4px;
+}
+
+.img-box {
+    margin-top: 7rem;
+    background-image: linear-gradient(0deg, skyblue, white);
+    height: 25rem;
+    
+
+}
+
+.login-img {
+    /* width: 28rem; */
+    height: 25rem;
+}
+
+.login-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-btn {
+    margin: 0 auto;
+
+}
+
+button {
+    display: flex;
+  height: 2.3rem;
+    align-items: center;
+   
+}
+
+.report-btn button {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.form-box .login-btn {
+    width: 50%;
+    height: 13%;
+    background: blueviolet;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+/* 
+
+.input-feild {
+    width: 80%;
+    padding: 10px 8px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid gray;
+    position: relative;
+    right: 10px;
+
+
+}
+
+.input-feild::placeholder {
+    font-size: 15px;
+}
+
+.img-box {
+   
+    background-image: linear-gradient(0deg, skyblue, white);
+    height: 24rem;
+    width: 34rem;
+
+}
+
+.login-img {
+    width: 28rem;
+    height: 20rem;
+}
+
+.login-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.login {
+    display: flex;
+} */
+
+/* ------------------------Bell--------------------- */
+.trade-text a:nth-child(even) {
+    padding: 5px 5px;
+
+}
+
+.trade-text a {
+    color: black;
+}
+
+
+.bell-btn {
+    border: 1px solid rgb(168, 164, 164);
+    border-bottom: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+
+
+.line {
+    width: 90%;
+    margin-left: 7%;
+    margin-top: 2.5px;
+
+
+}
+
+hr {
+    color: gray;
+}
+
+.trade-table {
+  
+    border-collapse: collapse;
+
+}
+
+
+
+.trade-table thead tr {
+
+    background-color: black;
+    color: #fff;
+    text-align: left;
+
+
+
+
+}
+
+
+
+.trade-table th,
+.trade-table td {
+    padding: 10px 0px;
+
+
+
+}
+
+/* .trade-table thead tr th {
+        margin-bottom: 50px;
+    } */
+.trade-table tbody tr {
+    /* border-top: 1px solid rgb(210, 209, 209) ;
+        border-bottom: 1px solid rgb(210, 209, 209); */
+    border: 1px solid rgb(210, 209, 209);
+}
+
+.trade-content {
+    height: 85vh;
+    width: 60rem;
+    margin-left: 2%;
+}
+
+/* ----------------------------------services------------ */
+.services-content {
+    /* height: 83vh; */
+
+}
+
+
+.services-table {
+    height: 40%;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+}
+
+
+
+.services-table thead tr {
+
+    background-color: rgb(21, 16, 16);
+    color: #fff;
+    text-align: center;
+
+
+
+
+}
+
+.services-table tbody tr {
+
+    text-align: center;
+
+}
+
+.services-table tr,
+.services-table th {
+    width: 20rem;
+}
+
+
+.services-table tbody tr {
+
+    border-top: 1px solid rgb(210, 209, 209);
+    border-bottom: 1px solid rgb(210, 209, 209);
+}
+
+.services-table tbody tr td {
+    padding: 7px 0;
+
+}
+
+.services-content h5 {
+    font-size: 1.3rem;
+}
+
+.services-content h4 {
+    font-size: 1.1rem;
+}
+
+.services-table thead tr th {
+    padding: 3px 0px;
+}
+
+/* ---------------------------strategy-page-------------*/
+.strategy-btn {
+    display: flex;
+     flex-wrap: wrap;
+
+
+}
+
+.strategy-btn button {
+    border: 2px solid blueviolet;
+    padding: 2px 20px;
+
+
+}
+
+.strategy-content {
+    height: 83vh;
+}
+
+
+
+
+/* ---------------sub-admin-table---------------- */
+
+
+.sub-admin-table thead tr th {
+    padding: 10px 0px;
+}
+
+.sub-admin-table tbody tr td {
+    padding: 10px 0px;
+}
+
+.sub-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-btn {
+    border: 1px solid rgb(74, 24, 121);
+    width: 20%;
+}
+
+.sub-content {
+    height: 83vh;
+    margin-left: 3%;
+}
+
+/* -------------------signal-page--------------- */
+.signal-text {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.signal-btn {
+
+    width: 15%;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.signal {
+    display: flex;
+    justify-content: flex-start;
+    /* width: 50%; */
+
+}
+
+.signal h4 {
+    font-size: 1rem;
+    margin-right: 12rem;
+}
+
+.signal-all button {
+    height: 1.8rem;
+    color: black;
+    border: 1px solid gray;
+}
+
+.reset {
+    background-color: blueviolet;
+    margin-left: 5rem;
+    width: 5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.filter {
+    position: relative;
+    height: 3rem;
+}
+
+.filter input {
+    border: 1px solid #000;
+    color: #000;
+
+    padding-left: 41px !important;
+    padding-right: 10px !important;
+}
+
+.filter i {
+    position: absolute;
+    left: 2%;
+   bottom: 24%;
+
+    color: #000;
+}
+
+
+
+
+.signal-table {
+    height: 40%;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+}
+
+
+
+.signal-table thead tr {
+
+    background-color: rgb(21, 16, 16);
+    color: #fff;
+    text-align: center;
+
+
+
+
+}
+
+.signal-table tbody tr {
+
+    text-align: center;
+
+}
+
+.signal-table tr,
+.services-table th {
+    width: 20rem;
+
+}
+
+
+.signal-table tbody tr {
+
+    border-top: 1px solid rgb(210, 209, 209);
+    border-bottom: 1px solid rgb(210, 209, 209);
+}
+
+.signal-content h5 {
+    font-size: 1.3rem;
+}
+
+.signal-content h4 {
+    font-size: 1.1rem;
+}
+
+.signal-table thead tr th {
+    padding: 4px 0px;
+}
+
+.signal-table tbody tr td {
+    padding: 4px 0px;
+}
+
+/* ---------------------------strategy-page------------- */
+.strategy-btn {
+    display: flex;
+
+
+}
+
+.strategy-btn button {
+    border: 2px solid blueviolet;
+
+}
+
+/* ---------------------notification---------------- */
+.notification-content {
+    background-color: #f1dfdf !important;
+    height: 83vh;
+}
+
+.notification-boxes {
+    height: 6rem;
+    width: 10rem;
+    background-color: #fbfbfb;
+}
+
+.box {
+    height: 6rem;
+    /* width: 10rem; */
+    background-color: #fbf8f8;
+    border: none;
+    border-radius: 7px;
+    padding: 4px;
+
+}
+
+.notification-content .container .row {
+    background-color: #f1dfdf;
+}
+
+/* ---------report------- */
+.release thead tr th {
+    padding: 12px;
+}
+
+.release tbody tr td {
+    padding: 12px;
+}
+
+/* ------------help----------------- */
+.help {
+    height: 40vh;
+}
+
+/* ----------api-page------------ */
+
+.api-page {
+    height: 71vh;
+    overflow: hidden;
+}
+
+.api-page p {
+    line-height: 7px;
+    font-size: 0.8rem;
+    color: rgb(36, 152, 230);
+
+}
+
+/* --------------------------Message page------------------ */
+.send-btn {
+    border-radius: 8px;
+    width: 6rem;
+    border: 1px solid blueviolet;
+
+}
+
+/* ---------------Trading status------------------------ */
+
+
+
+/* ------------------------------Group Services---------------------------*/
+.group-btn {
+    border-radius: 8px;
+    width: 9rem;
+    border: 1px solid blueviolet;
+}
+
+/* --------------------------------client------------ */
+
+.two-box .help {
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+/* -----------------------trade-history----------------------------- */
+.trade-btn {
+    max-width: 25rem;
+}
+
+.trade-btn button {
+    width: 10rem;
+}
+
+.trade-history-table thead tr th {
+    padding: 2px 9px;
+
+    font-size: 0.8rem;
+
+
+}
+
+.trade-history-table tbody tr td {
+    padding: 0px 14px;
+    font-size: 0.7rem;
+
+
+}
+
+
+.trade-history-table tbody tr td {
+
+    border-top: 1px solid rgb(210, 209, 209);
+    border-bottom: 1px solid rgb(210, 209, 209);
+    border-left: none;
+    border-right: none;
+}
+
+.trade-history-content h5 {
+    font-size: 0.8rem;
+}
+
+
+/* -----------------client ---------------------- */
+
+.content-select {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.content-select h1 {
+    font-size: 0.7rem;
+}
+
+.content-select select {
+    padding-right: 5rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.content-select button {
+    height: 2.8rem;
+}
+
+.align-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------------------------system---------------- */
+.system-btn button {
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+    width: 6rem;
+}
+
+.system-group-btn button {
+    border: 2px solid blueviolet;
+    width: 15rem;
+    padding: 6px 49px;
+}
+
+
+
+.system-group-btn {
+    width: 100%;
+}
+
+.system-group-btn button {
+    width: 10rem;
+}
+
+/* ----------trade-execution-table----------- */
+.trade-ex-table th, .trade-table td {
+    padding: 0px 21px;
+}
+
+/* ----------------------user---------- */
+.user-btn a {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------btn-hover---------- */
+
+.bg-hover:hover {
+    background-color: blueviolet !important;
+    color: white !important;
+}
+
+.bt-hover:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+
+/* ------------------------add strategy pop up------------------------ */
+.text-area {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.pop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 20rem;
+}
+
+.check-box div {
+    display: flex;
+
+    justify-content: flex-start;
+
+}
+
+/* --------------pop up table-------------- */
+.pop-table {
+
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+
+
+.pop-table thead tr {
+
+    background-color: rgb(21, 16, 16);
+    color: #fff;
+    text-align: center;
+
+
+
+
+}
+
+.pop-table tbody tr {
+    text-align: center;
+    border-top: 1px solid rgb(210, 209, 209);
+    border-bottom: 1px solid rgb(210, 209, 209);
+}
+
+.pop-table tr,
+.pop-table th {
+    width: 20rem;
+}
+
+.pop-table tbody tr td {
+    padding: 7px 0;
+}
+
+
+
+.pop-table thead tr th {
+    padding: 8px 0px;
+}
+
+.popup-check-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.toggle-btn {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.toggle-btn input {
+    display: none;
+}
+
+.toggle-btn:before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 1px;
+    left: 2px;
+    transition: 0.4s;
+}
+
+.toggle-btn input:checked+.toggle-btn:before {
+    transform: translateX(30px);
+}
+
+.toggle-container {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-container h4 {
+    font-size: 1rem;
+}
+
+/* ---------------------------question-------------- */
+.message-container {
+    width: 100%;
+}
+
+.message-container .message-box {
+    display: flex;
+    border-bottom: 1px solid gray;
+
+}
+
+.message-container .message-box {
+    display: flex;
+
+}
+
+.message-container .message-box span {
+    margin-right: 5px;
+
+}
+
+.message-container .message-box p {
+    color: rgb(9, 150, 179);
+
+
+}
+
+.message-container .message-box p span {
+
+    margin-left: 5px;
+
+
+}
+
+
+.client-form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.client-form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client input {
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 0px 3px;
+
+}
+
+.client-form label {
+    margin-top: 5px;
+}
+
+.in input {
+    width: 6rem;
+}
+
+
+/* ----------------------explore----------- */
+.dropmenu {
+    border: 3px solid purple !important;
+    margin-right: 75px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(241, 237, 237);
+    color: black !important;
+    width: 125px;
+    text-align: center;
+}
+
+.dropicon {
+    background-color: none;
+}
+
+body {
+    background-color: #CFA9AB;
+}
+
+.dropicon::after {
+    content: none
+}
+
+.dashboard {
+    height: 600px;
+    width: 20%;
+    border: 6px solid black;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.dashboard li {
+    border: 3px solid;
+    padding: 15px;
+    list-style: none;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.sidebar-container p {
+    border: 2px solid #b118e4 !important;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.sidebar-container {
+    background-color: #f5f5f5;
+    border: 5px solid #6E7781;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 615px;
+
+}
+
+.dash {
+    width: 170px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.active {
+    text-decoration: none;
+    color: black;
+
+}
+
+.div {
+    background-color: white;
+
+
+    border-radius: 10px;
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+
+.div img {
+    width: 70px;
+    height: 50px;
+    margin: auto;
+   margin-top: 10px;
+
+}
+
+.div p {
+    margin-bottom: 0 !important;
+}
+
+.p img {
+    width: 10%;
+    height: 10%;
+}
+
+/* --------------------------user-pop-up---------------------------------- */
+
+.user-table thead tr th {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(74, 71, 71);
+}
+
+.user-table {
+    border-collapse: collapse;
+    overflow: auto;
+    border-bottom: 1px solid gray;
+}
+
+
+.user-table thead tr
+ {
+
+    background-color: #f4f5f8;
+    color: black;
+
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+.user-table thead tr  th{
+    padding: 5px 6px;
+    border: 1px solid gray;
+ 
+    width: 10rem;
+
+}
+.user-table tbody tr td {
+    padding: 2px 2px;
+    
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+ text-align: center;
+    width: 10rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------  tablet media---------------- */
+/* @media screen and (min-width:780px) and (max-width:1024px) */
+@media screen and (max-width:768px) {
+    .media-login-img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar-brand img {
+        width: 25%;
+    }
+
+    .track-box{
+        width: 41%;
+        height: 5.5rem;
+        padding-top: 8px;
+        margin-right: 8%
+    }
+    .graph2{
+        margin-top: 3rem;
+    }
+    .side a{
+        width: 90%;
+    }
+    .trade-content{
+margin-left: 0;
+margin-top: 10px;
+    }
+    .sub-content{
+        margin-top: 10px;
+        margin-left: 0%;
+    }
+    .filter i{
+        left: 3%;
+    }
+    .media-table-auto{
+        overflow: auto;
+    }
+
+}
+
+@media screen and (max-width:390px){
+    .navbar-brand img {
+        width: 38%;
+    }
+    .track-box{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .media-table-auto{
+        overflow: auto;
+    }
+
+    .sub-content{
+        margin-top: 10px;
+        margin-left: 0%;
+    }
+    .res-width{
+width: 100%;
+    }
+    .filter i{
+left: 8%;
+    }
+    .filter input{
+        width: 100%;
+
+    }
+    .services-table thead tr th {
+        padding: 3px 40px;
+    }
+    .strategy-btn button{
+        width: 100%;
+    }
+    .content-select select , .content-select input{
+        width: 100%;
+    }
+  
+}

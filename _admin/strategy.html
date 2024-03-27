@@ -21,22 +21,22 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="../img/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item icon">
-                        <a class="nav-link  faq-icon" href="../_subAdmin/dashboard.html" data-target="#question" data-toggle="modal"><span
-                                class="material-symbols-outlined text-black">
+                        <a class="nav-link  faq-icon" href="../_subAdmin/dashboard.html" data-target="#question"
+                            data-toggle="modal"><span class="material-symbols-outlined text-black">
                                 quiz
                             </span></a>
                     </li>
 
                     <div class="modal" id="question">
                         <div class="modal-dialog">
-                            <div class="modal-content" style="height: 85vh; width: 40rem;">
+                            <div class="modal-content" >
                                 <div class="modal-header d-block ">
                                     <h5 class="mx-auto d-flex justify-content-center">SubAdmin In Active Clients
                                     </h5>
@@ -103,73 +103,123 @@
                     </li>
                     <div class="modal" id="comment">
                         <div class="modal-dialog">
-                            <div class="modal-content" style="height: 85vh; width: 50rem;">
+                            <div class="modal-content" style="height: auto; overflow:hidden;">
                                 <div class="modal-header d-block ">
                                     <h5 class="mx-auto d-flex justify-content-center">Frequently Asked Question</h5>
                                     <hr>
                                     <br>
                                     <div class="accordion" id="accordionExample">
                                         <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Trade Execution: Trade has not been executed?
-                                            </button>
-                                          </h2>
-                                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                    Trade Execution: Trade has not been executed?
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is
+                                                    shown by default, until the collapse plugin adds the appropriate
+                                                    classes that we use to style each element. These classes control the
+                                                    overall appearance, as well as the showing and hiding via CSS
+                                                    transitions. You can modify any of this with custom CSS or
+                                                    overriding our default variables. It's also worth noting that just
+                                                    about any HTML can go within the <code>.accordion-body</code>,
+                                                    though the transition does limit overflow.
+                                                </div>
                                             </div>
-                                          </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                          Signals: Are signal not showing on the panel?
-                                            </button>
-                                          </h2>
-                                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                            </div>
-                                          </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
-                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Broker Response: Broker response order has been rejected?
-                                              </button>
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Signals: Are signal not showing on the panel?
+                                                </button>
                                             </h2>
-                                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                              <div class="accordion-body">
-                                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                              </div>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <strong>This is the second item's accordion body.</strong> It is
+                                                    hidden by default, until the collapse plugin adds the appropriate
+                                                    classes that we use to style each element. These classes control the
+                                                    overall appearance, as well as the showing and hiding via CSS
+                                                    transitions. You can modify any of this with custom CSS or
+                                                    overriding our default variables. It's also worth noting that just
+                                                    about any HTML can go within the <code>.accordion-body</code>,
+                                                    though the transition does limit overflow.
+                                                </div>
                                             </div>
-                                          </div>
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                          Trade History: Tade history prices are inaccurate?
-                                            </button>
-                                          </h2>
-                                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                            </div>
-                                          </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
-                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            MT4: How to hide and show symbols in MT4?
-                                              </button>
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Broker Response: Broker response order has been rejected?
+                                                </button>
                                             </h2>
-                                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                              <div class="accordion-body">
-                                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                              </div>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <strong>This is the second item's accordion body.</strong> It is
+                                                    hidden by default, until the collapse plugin adds the appropriate
+                                                    classes that we use to style each element. These classes control the
+                                                    overall appearance, as well as the showing and hiding via CSS
+                                                    transitions. You can modify any of this with custom CSS or
+                                                    overriding our default variables. It's also worth noting that just
+                                                    about any HTML can go within the <code>.accordion-body</code>,
+                                                    though the transition does limit overflow.
+                                                </div>
                                             </div>
-                                          </div>
-                                      </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Trade History: Tade history prices are inaccurate?
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <strong>This is the third item's accordion body.</strong> It is
+                                                    hidden by default, until the collapse plugin adds the appropriate
+                                                    classes that we use to style each element. These classes control the
+                                                    overall appearance, as well as the showing and hiding via CSS
+                                                    transitions. You can modify any of this with custom CSS or
+                                                    overriding our default variables. It's also worth noting that just
+                                                    about any HTML can go within the <code>.accordion-body</code>,
+                                                    though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    MT4: How to hide and show symbols in MT4?
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <strong>This is the third item's accordion body.</strong> It is
+                                                    hidden by default, until the collapse plugin adds the appropriate
+                                                    classes that we use to style each element. These classes control the
+                                                    overall appearance, as well as the showing and hiding via CSS
+                                                    transitions. You can modify any of this with custom CSS or
+                                                    overriding our default variables. It's also worth noting that just
+                                                    about any HTML can go within the <code>.accordion-body</code>,
+                                                    though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
 
@@ -183,7 +233,7 @@
                     </li>
                     <div class="modal" id="notification">
                         <div class="modal-dialog">
-                            <div class="modal-content" style="height: 85vh; width: 40rem;">
+                            <div class="modal-content" style="height: 85vh; ">
                                 <div class="modal-header  ">
                                     <h5 class="mx-auto">Notification</h5>
                                     <hr>
@@ -203,26 +253,35 @@
                     </li>
 
                     <li class="nav-item dropdown px-4 bg-hover">
-                        <a class="nav-link dropdown-toggle text-black" href="../_subAdmin/dashboard.html"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-black" href="../_subAdmin/dashboard.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Admin
                         </a>
-                        <ul class="dropdown-menu ">
+
+                        <ul class="dropdown-menu  ">
                             <li><a class="dropdown-item" href="#">Logout</a></li>
                             <li><a class="dropdown-item" href="#">Change password</a></li>
-                            <!-- <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+
                         </ul>
                     </li>
-                    <li class="nav-item icon ">
-                        <a class="nav-link disabled" aria-disabled="true"><i
-                                class="fa-solid fa-bars text-black"></i></a>
-                    </li>
+
+
+
                 </ul>
 
             </div>
+            <li class="nav-item icon ms-4 " style="position: relative;">
+                <a class="nav-link  "   data-bs-toggle="dropdown" aria-expanded="false"><i
+                        class="fa-solid fa-bars text-black"></i></a>
+                        <ul class="dropdown-menu nav-menu" >
+                            <li><a class="dropdown-item" href="#">Explore</a></li>
+                            <li><a class="dropdown-item" href="#">Holding</a></li>
+                            <li><a class="dropdown-item" href="#">My Watchlist</a></li>
+                            <li><a class="dropdown-item" href="#">Stocks in news</a></li>
+                            <li><a class="dropdown-item" href="#">Most Bought on Grow</a></li>
+
+                        </ul>
+            </li>
         </div>
     </nav>
 
@@ -265,10 +324,10 @@
                             data-toggle="modal">Add Strategy</button>
                         <div class="modal" id="mymodel">
                             <div class="modal-dialog">
-                                <div class="modal-content" style="height: 80vh; width: 40rem;">
+                                <div class="modal-content" style="height: 80vh; ">
                                     <div class="modal-header justify-content-between">
                                         <h5>Add Strategy</h5>
-                                        <button type="button" class="close rounded-1 d-flex justify-content-center bg-hover "
+                                        <button type="button" style="width: 5rem;" class="close rounded-1 d-flex justify-content-center bg-hover "
                                             data-dismiss="modal">Back</button>
                                     </div>
 
@@ -300,10 +359,10 @@
                             data-toggle="modal">Requested Strategy</button>
                         <div class="modal" id="requested">
                             <div class="modal-dialog">
-                                <div class="modal-content" style="height: 80vh; width: 40rem;">
+                                <div class="modal-content" style="height: 80vh;">
                                     <div class="modal-header justify-content-between">
                                         <h5>Strategy Development</h5>
-                                        <button type="button" class="close rounded-1 d-flex justify-content-center bg-hover"
+                                        <button type="button" style="width:3rem" class="close rounded-1 d-flex justify-content-center bg-hover"
                                             data-dismiss="modal">Back</button>
                                     </div>
 
@@ -356,7 +415,7 @@
                                         </span>
                                         <div class="modal" id="profile">
                                             <div class="modal-dialog">
-                                                <div class="modal-content" style="height: 80vh; width: 40rem;">
+                                                <div class="modal-content" style="height: 80vh; ">
                                                     <div class="modal-header justify-content-between">
                                                         <h5>Strategy ClientList</h5>
                                                         <button type="button"
@@ -379,11 +438,11 @@
                                         </span>
                                         <div class="modal" id="edit">
                                             <div class="modal-dialog">
-                                                <div class="modal-content" style="height: 80vh; width: 40rem;">
+                                                <div class="modal-content" style="height: 80vh; ">
                                                     <div class="modal-header justify-content-between  strategy-btn">
                                                         <h5>Edit Strategy</h5>
                                                         <button type="button"
-                                                            class="close rounded-1 d-flex justify-content-center bg-hover"
+                                                            class="close rounded-1 d-flex justify-content-center bg-hover" style="width:4rem"
                                                             data-dismiss="modal">Back</button>
                                                     </div>
 
@@ -428,17 +487,17 @@
                                         </span>
                                         <div class="modal" id="delete">
                                             <div class="modal-dialog">
-                                                <div class="modal-content" style="height: 30vh; width: 30rem;">
+                                                <div class="modal-content" style="height: 30vh; ">
                                                     <div class=" mt-3">
                                                         <h5 class="mt-3">Software.stockmarketmaster.co.in say</h5>
                                                         <p class="mt3">Do you really want to delete it?</p>
 
-                                                        <div class="d-flex justify-content-around strategy-btn rounded-2 mt-4" style="width: 45%; margin-left: 15rem;" >
+                                                        <div class="d-flex justify-content-around strategy-btn rounded-2 mt-4"  >
                                                             <button type="button"
-                                                                class="close rounded-1 d-flex justify-content-center bg-hover"
+                                                                class="close rounded-1 d-flex justify-content-center bg-hover mb-2"
                                                                >OK</button>
                                                             <button type="button"
-                                                                class="close rounded-1 d-flex justify-content-center bg-hover"
+                                                                class="close rounded-1 d-flex justify-content-center bg-hover mb-2"
                                                                 data-dismiss="modal">Cancel</button>
                                                         </div>
                                                     </div>
@@ -452,10 +511,10 @@
                                         </span>
                                         <div class="modal" id="add">
                                             <div class="modal-dialog">
-                                                <div class="modal-content" style="height: 85vh; width: 40rem;">
+                                                <div class="modal-content" style="height: 85vh; ">
                                                     <div class="modal-header justify-content-between strategy-btn">
                                                         <h5>Add Strategy to client</h5>
-                                                        <button type="button"
+                                                        <button type="button"  
                                                             class="close rounded-1 d-flex justify-content-center bg-hover"
                                                             data-dismiss="modal">Back</button>
                                                     </div>

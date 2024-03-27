@@ -43,7 +43,7 @@ nav {
 
 }
 
-.dropdown-menu li {
+.admin-drop li {
 
     padding: 10px 4px;
 }
@@ -52,6 +52,15 @@ nav {
 
     border-bottom: 1px solid green;
 
+}
+.nav-menu{
+    position: absolute !important;
+    left: -13rem !important;
+    top: 2rem !important;
+   
+}
+.nav-menu li{
+    padding: 10px 0;
 }
 
 .dropdown-item:hover {
@@ -947,8 +956,9 @@ hr {
 
 .system-group-btn button {
     border: 2px solid blueviolet;
-    width: 15rem;
+    width: 15%;
     padding: 6px 49px;
+    
 }
 
 
@@ -958,7 +968,7 @@ hr {
 }
 
 .system-group-btn button {
-    width: 10rem;
+    width: 19%;
 }
 
 /* ----------trade-execution-table----------- */
@@ -1323,6 +1333,8 @@ body {
 
 
 
+
+
 /*------------------  tablet media---------------- */
 /* @media screen and (min-width:780px) and (max-width:1024px) */
 @media screen and (max-width:768px) {
@@ -1399,6 +1411,9 @@ left: 8%;
     }
     .content-select select , .content-select input{
         width: 100%;
+    }
+    .services-table tbody tr td {
+        padding: 9px 18px;
     }
   
 }
